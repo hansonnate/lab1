@@ -23,8 +23,6 @@ p {
   text-align: left;
 }
 
-
-
 .homecontent {
 
 }
@@ -140,7 +138,7 @@ p {
 .aboutcontent p {
   color: black;
 }
-.funfacts {
+.contactme {
   text-align: center;
   background-color: #B59C84;
   border-radius: 10px;
@@ -150,12 +148,20 @@ p {
   max-width: 900px;
   height: auto;
 }
-.funfacts p {
+.contactme p {
   color: black;
 }
-.funfactcontainer {
+.contactcontainer {
   display: flex;
   justify-content: center;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contactitem {
+  padding: 0px 10px;
 }
 /* Desktop Styles */
 @media only screen and (min-width: 801px) {
