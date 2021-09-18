@@ -219,16 +219,19 @@ p {
 
 }
 .picreview img {
-  width: auto;
-  height: 300px;
+  width: 500px;
+  height: auto;
 }
 .picreview p {
-  width: 300px;
+  width: 500px;
   height: auto;
   padding-right: 20px;
   color: black;
 }
-
+.picreviewindent {
+  display: flex;
+  flex-direction: column;
+}
 /* Desktop Styles */
 @media only screen and (min-width: 1001px) {
   .picreview {
